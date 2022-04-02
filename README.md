@@ -9,7 +9,7 @@ Users can replace the 'dict' text file that Wordle and the solvers use ad their 
 
 wordlecli.py:
 ```sh
-python3 5 --guesses 6 --hard --daily
+python3 wordlecli.py 5 --guesses 6 --hard --daily
 ```
 
 ordlecli.py:
