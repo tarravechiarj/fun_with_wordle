@@ -17,10 +17,10 @@ ordlecli.py:
 python3 ordlecli.py 5 4 9 --daily
 ```
 wordleHelp.py:
-```sh
+```
 python3 wordleHelp.py 5
-steam ☑☐☒☒☒
-choir ☒☒☑☒☒
+steam !?###
+choir ##!##
 
 ```
 wordleAutosolve.py:
