@@ -5,7 +5,7 @@ wordle.py provides a simple wordle clone class that does no I/O, allowing other 
 
 Users can replace the 'dict' text file that Wordle and the solvers use ad their dictionary with their own; the wordle classes should work with 'words' composed of arbitrary non-whitespace characters (though not tests.py).
 
-## Usage ecample
+## Usage example
 
 wordlecli.py:
 ```sh
