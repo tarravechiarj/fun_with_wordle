@@ -10,8 +10,8 @@ def solve(game, solver):
         if guess is not None:
             response = game.tryGuess(guess)   
         else:
-            print('Solver ran out of guesses')
-            break
+            print('Solver ran out of guesses, quitting')
+            return
         solver.update(guess, response)
         print(f'{guess}\n{response}')
     print(game.outcome())
